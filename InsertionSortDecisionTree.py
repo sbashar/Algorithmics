@@ -1,8 +1,8 @@
 import itertools
 
-threeElementPermutation = list(itertools.permutations([1,2,3,4]))
+elementPermutation = list(itertools.permutations([1, 2, 3]))
 
-for elementList in threeElementPermutation:
+for elementList in elementPermutation:
     elementList = list(elementList)
     print(elementList)
     for i in range(1,len(elementList)):
