@@ -10,6 +10,7 @@ for a1,a2,a3 in threeElementPermutation:
             print("a1 > a2")
             if a1 > a3:
                 print("a1 > a3")
+                print("Sorted sequence: a2 = " + str(a2) + " <= a3 = " + str(a3) + " <= a1 = " + str(a1))
             else:
                 print("a1 <= a3")
                 print("Sorted sequence: a2 = " + str(a2) + " <= a1 = " + str(a1) + " <= a3 = " + str(a3))
@@ -28,3 +29,4 @@ for a1,a2,a3 in threeElementPermutation:
                 print("Sorted sequence: a1 = " + str(a1) + " <= a3 = " + str(a3) + " <= a2 = " + str(a2))
             else:
                 print("a3 <= a1")
+                print("Sorted sequence: a3 = " + str(a3) + " <= a1 = " + str(a1) + " <= a2 = " + str(a2))
